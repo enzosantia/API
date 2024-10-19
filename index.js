@@ -35,15 +35,27 @@ app.delete('/eliminarConsumidor' , (req, res) => {
 app.put('/modificarConsumidor', (req, res) => {
     const { nombre, nuevconsumidor } = req.body;
 
-    let consumidor = JSON.parse(fs.readFileSync('consumidores.json'));
+    let consumidores = JSON.parse(fs.readFileSync('consumidores.json'));
+    let user = consumidores.findIndex(consumidor => consumidor.nombre === nombre);
 
-    let index = consumidor.findIndex(consumidor => consumidor.nombre === nombre);
-    if (index !== -1) {
-        consumidor[index] = { ...consumidor[index], ...nuevconsumidor };
-        fs.writeFileSync('consumidores.json', JSON.stringify(consumidor));
-        res.send("Exito");
-    }
+    console.log(nuevconsumidor)
+
+    consumidores[user] = nuevconsumidor;
+    
+    fs.writeFileSync('consumidores.json', JSON.stringify(consumidores));
+    res.send("Exito");
 });
+/*
+    para que la funcion put funcione correctamente se deven ingresar los datos de la siguiente forma
+    {
+    "nombre": "NombreOriginal",
+    "nuevconsumidor": {
+        DATOS ORIGINALES DEL USUARIO MAS LOS DATOS A MODIFICAR
+    }
+    }
+
+ */
+
 
 app.get('/consumidor/:name', (req, res) => {
     res.send(`Hola ${req.params.name}`);
