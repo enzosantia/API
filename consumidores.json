@@ -1,1 +1,18 @@
-[{"nombre":"jose","edad":"11","codigo":10}]
+[
+  {
+    "DNI": "234678",
+    "Nombre": "Juan",
+    "Apellido": "Pérez",
+    "Dirección": "hola 123",
+    "Teléfono": "98 7654 32222",
+    "Activo": false
+  },
+  {
+    "DNI": "2346787890",
+    "Nombre": "Juan",
+    "Apellido": "jose",
+    "Dirección": "pohuio",
+    "Teléfono": "98 7654 324",
+    "Activo": true
+  }
+]
