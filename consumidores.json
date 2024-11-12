@@ -1,11 +1,11 @@
 [
   {
     "DNI": "234678",
-    "Nombre": "Juan",
+    "Nombre": "LEO",
     "Apellido": "Pérez",
     "Dirección": "hola 123",
     "Teléfono": "98 7654 32222",
-    "Activo": false
+    "Activo": true
   },
   {
     "DNI": "2346787890",
@@ -13,6 +13,14 @@
     "Apellido": "jose",
     "Dirección": "pohuio",
     "Teléfono": "98 7654 324",
+    "Activo": true
+  },
+  {
+    "DNI": "49440228",
+    "Nombre": "PEPE",
+    "Apellido": "alvarez",
+    "Dirección": "jose",
+    "Teléfono": "39 920 9423",
     "Activo": true
   }
 ]

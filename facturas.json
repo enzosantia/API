@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ComDNI": "2346787890",
+    "ServID": "AD312D",
+    "Monto_pagar": "5000000000",
+    "Fecha_emision": "2023/11/10",
+    "Fecha_vencimiento": "2023/12/10",
+    "Pagado": true,
+    "Activo": false,
+    "facID": 1
+  },
+  {
+    "ComDNI": "49440228",
+    "ServID": "AD312D11",
+    "Monto_pagar": "500000283467",
+    "Fecha_emision": "2000/4/43",
+    "Fecha_vencimiento": "2004/11/32",
+    "Pagado": false,
+    "Activo": true,
+    "facID": 2
+  },
+  {
+    "ComDNI": "49440228",
+    "ServID": "AD312D11",
+    "Monto_pagar": "000",
+    "Fecha_emision": "2000/4/43",
+    "Fecha_vencimiento": "2004/11/23",
+    "Pagado": false,
+    "Activo": true,
+    "facID": 3
+  }
+]

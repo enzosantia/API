@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "AD312D",
+    "Tipo": "PETROLEO",
+    "Proveedor": "Lucas PoPo",
+    "Activo": true
+  },
+  {
+    "Tipo": "GAS",
+    "Proveedor": "pospos lucas",
+    "Activo": true,
+    "ID": "AD312D1"
+  },
+  {
+    "Tipo": "AGUA",
+    "Proveedor": "tronquitos",
+    "Activo": true,
+    "ID": "AD312D11"
+  }
+]
